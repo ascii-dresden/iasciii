@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B1164CC1206E3F7C00929E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1164CC0206E3F7C00929E59 /* AppDelegate.swift */; };
-		B1164CC3206E3F7C00929E59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1164CC2206E3F7C00929E59 /* ViewController.swift */; };
+		B1164CC3206E3F7C00929E59 /* YearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1164CC2206E3F7C00929E59 /* YearViewController.swift */; };
 		B1164CC6206E3F7C00929E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1164CC4206E3F7C00929E59 /* Main.storyboard */; };
 		B1164CC8206E3F7C00929E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1164CC7206E3F7C00929E59 /* Assets.xcassets */; };
 		B1164CCB206E3F7C00929E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1164CC9206E3F7C00929E59 /* LaunchScreen.storyboard */; };
 		B1164CD6206E3F7D00929E59 /* asciiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1164CD5206E3F7D00929E59 /* asciiiTests.swift */; };
 		B1164CE1206E3F7D00929E59 /* asciiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1164CE0206E3F7D00929E59 /* asciiiUITests.swift */; };
+		B1164CEF206E5B9C00929E59 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1164CEE206E5B9C00929E59 /* ApiClient.swift */; };
+		B1164CF1206E5C5800929E59 /* ProjectListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1164CF0206E5C5800929E59 /* ProjectListTableViewController.swift */; };
+		B1164CF3206E6A2A00929E59 /* ProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1164CF2206E6A2A00929E59 /* ProjectTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		B1164CBD206E3F7C00929E59 /* asciii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asciii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1164CC0206E3F7C00929E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1164CC2206E3F7C00929E59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1164CC2206E3F7C00929E59 /* YearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearViewController.swift; sourceTree = "<group>"; };
 		B1164CC5206E3F7C00929E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1164CC7206E3F7C00929E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1164CCA206E3F7C00929E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		B1164CDC206E3F7D00929E59 /* asciiiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asciiiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1164CE0206E3F7D00929E59 /* asciiiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asciiiUITests.swift; sourceTree = "<group>"; };
 		B1164CE2206E3F7D00929E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1164CEE206E5B9C00929E59 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		B1164CF0206E5C5800929E59 /* ProjectListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListTableViewController.swift; sourceTree = "<group>"; };
+		B1164CF2206E6A2A00929E59 /* ProjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				B1164CC0206E3F7C00929E59 /* AppDelegate.swift */,
-				B1164CC2206E3F7C00929E59 /* ViewController.swift */,
+				B1164CC2206E3F7C00929E59 /* YearViewController.swift */,
+				B1164CF0206E5C5800929E59 /* ProjectListTableViewController.swift */,
+				B1164CF2206E6A2A00929E59 /* ProjectTableViewController.swift */,
+				B1164CEE206E5B9C00929E59 /* ApiClient.swift */,
 				B1164CC4206E3F7C00929E59 /* Main.storyboard */,
 				B1164CC7206E3F7C00929E59 /* Assets.xcassets */,
 				B1164CC9206E3F7C00929E59 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1164CC3206E3F7C00929E59 /* ViewController.swift in Sources */,
+				B1164CC3206E3F7C00929E59 /* YearViewController.swift in Sources */,
+				B1164CF3206E6A2A00929E59 /* ProjectTableViewController.swift in Sources */,
 				B1164CC1206E3F7C00929E59 /* AppDelegate.swift in Sources */,
+				B1164CEF206E5B9C00929E59 /* ApiClient.swift in Sources */,
+				B1164CF1206E5C5800929E59 /* ProjectListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = asciii/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.ascii-dresden.asciii";
@@ -441,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = asciii/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.ascii-dresden.asciii";
